@@ -13,3 +13,8 @@
 section[class*="mobileHeaderCollapsed_"] {
     display: none !important;
 }
+
+/* Hide app launcher (broken and useless) */
+div[class^="channelAppLauncher_"] {
+    display: none;
+}
