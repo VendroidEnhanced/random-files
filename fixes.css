@@ -19,8 +19,7 @@ div[class^="channelAppLauncher_"] {
     display: none;
 }
 
-/* Hide chat view on shown chanlist */
-div[class^="content_"]:has(div[data-collapsed="false"]) chat_ {
-    display: none;
+/* Fix settings sidebar on some devices */
+[class^="sidebar__"] {
+    position: absolute;
 }
-
