@@ -44,3 +44,8 @@ div[class^="channelAppLauncher_"] {
   border-radius: 100px;
   margin-bottom: 20px;
 }
+
+/* Fix equicord insanities */
+.vc-plugins-info-card {
+    height: unset !important;
+}
