@@ -55,3 +55,11 @@ div[role="dialog"] {
 .vc-plugins-info-card {
     height: unset !important;
 }
+
+div[class^="prompt_"] {
+    width: 95vw !important;
+
+    div[class^="scrollerContent"] {
+        padding: 20px !important;
+    }
+}
